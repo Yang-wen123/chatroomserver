@@ -26,7 +26,6 @@ public class ServerThread extends Thread{
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream(),"UTF-8"));
             while (true){
                 String readLine = bufferedReader.readLine();
-                System.out.println(readLine);
                 for(Socket so:socketList){
                     if(so.equals(socket)){
                         System.out.println(so);
@@ -37,8 +36,6 @@ public class ServerThread extends Thread{
                 }
             }
         } catch (IOException e) {
-            //e.printStackTrace();
-            System.out.println("客户端退出"+socket.getInetAddress());
         }
     }
 }

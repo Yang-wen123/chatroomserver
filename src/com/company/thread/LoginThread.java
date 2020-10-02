@@ -26,7 +26,6 @@ public class LoginThread extends Thread{
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream(),"UTF-8"));
             while (true){
                 String readLine = bufferedReader.readLine();
-                //System.out.println(readLine);
                 if(readLine!=null){
                     JSONObject login = new JSONObject(readLine);
                     String username = login.getString("username");
@@ -43,7 +42,6 @@ public class LoginThread extends Thread{
                     printWriter = new PrintWriter(socket.getOutputStream(),true);
                     printWriter.println(choke.toString());
                 }
-
             }
         } catch (IOException e) {
             System.out.println("客户端退出");
