@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Maven/MavenRepository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/../../Maven/MavenRepository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" recursive="false" />
+  </library>
+</component>
